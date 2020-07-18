@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #ff9a4b;
+}
+
+main{
+	margin: 50px auto;
+	width: 960px;
+	display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+
+@media screen and (max-width:1024px){
+	main{
+		margin: 50px auto;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:768px){
+	main{
+		margin: 50px auto;
+		width: 100%;display: flex;
+	}
+}
+
+@media screen and (max-width:425px){
+	main{
+		margin: 50px auto;
+		width: 100%;display: flex;
+	}
+}
+
+.main-contents{
+	background-color: #eee;
+	float: left;
+	width:300px;
+	margin-right: 30px;
+	padding: 10px;
+	position: relative;
+}
+
+@media screen and (max-width:1024px){
+	.main-contents{
+	background-color: #eee;
+	float: none;
+	width:700px;
+	margin: 50px auto;
+	padding: 10px;
+	position: relative;
+	margin-bottom:50px;
+}
+}
+
+@media screen and (max-width:768px){
+	.main-contents{
+	background-color: #eee;
+	float: none;
+	width:500px;
+	margin-right: 30px;
+	padding: 10px;
+	position: relative;
+	margin:50px auto;
+}
+}
+
+@media screen and (max-width:425px){
+	.main-contents{
+	background-color: #eee;
+	float: none;
+	width:300px;
+	margin-right: 30px;
+	padding: 10px;
+	position: relative;
+	margin:50px auto;
+}
+}
+.main-contents:last-child{
+	margin-right: 0;
+}
+
+@media screen and (max-width:1024px){
+	.main-contents:last-child{
+		margin:auto;
+		display: flex;
+	}
+}
+
+@media screen and (max-width:768px){
+	.main-contents:last-child{
+		margin:auto;
+		display: flex;
+	}
+}
+
+@media screen and (max-width:425px){
+	.main-contents:last-child{
+		margin:auto;
+		display: flex;
+	}
+}
+
+.background-image{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	height:150px;
+}
+
+.background-image2{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	height:150px;
+}
+
+.background-image3{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	height:150px;
+}
+
+.text{
+	padding: 3px;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color:#ff9a4b;
+	color: #fff;
+	display: inline;
+}
+
+.main-contents-text{
+	text-align: left;
+	margin: 15px 0 5px;
+}
+
+.main-contents-text2{
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #aaaaaa;
+	position: absolute;
+
+}
