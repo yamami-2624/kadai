@@ -22,9 +22,6 @@ header{
 main{
 	margin: 50px auto;
 	width: 960px;
-	display: flex;
-    flex-flow: column;
-    min-height: 100vh;
 }
 
 
@@ -38,14 +35,14 @@ main{
 @media screen and (max-width:768px){
 	main{
 		margin: 50px auto;
-		width: 100%;display: flex;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width:425px){
 	main{
 		margin: 50px auto;
-		width: 100%;display: flex;
+		width: 100%;
 	}
 }
 
@@ -62,11 +59,10 @@ main{
 	.main-contents{
 	background-color: #eee;
 	float: none;
-	width:700px;
-	margin: 50px auto;
+	width: 90%;
 	padding: 10px;
 	position: relative;
-	margin-bottom:50px;
+	margin:20px auto;
 }
 }
 
@@ -74,11 +70,12 @@ main{
 	.main-contents{
 	background-color: #eee;
 	float: none;
-	width:500px;
+	width: 90%;
 	margin-right: 30px;
 	padding: 10px;
 	position: relative;
-	margin:50px auto;
+	margin:  auto;
+	margin-bottom:20px;
 }
 }
 
@@ -86,11 +83,10 @@ main{
 	.main-contents{
 	background-color: #eee;
 	float: none;
-	width:300px;
+	width: 90%;
 	margin-right: 30px;
 	padding: 10px;
 	position: relative;
-	margin:50px auto;
 }
 }
 .main-contents:last-child{
@@ -100,21 +96,18 @@ main{
 @media screen and (max-width:1024px){
 	.main-contents:last-child{
 		margin:auto;
-		display: flex;
 	}
 }
 
 @media screen and (max-width:768px){
 	.main-contents:last-child{
 		margin:auto;
-		display: flex;
 	}
 }
 
 @media screen and (max-width:425px){
 	.main-contents:last-child{
 		margin:auto;
-		display: flex;
 	}
 }
 
@@ -137,6 +130,75 @@ main{
 	background-size: cover;
 	background-position: bottom;
 	height:150px;
+}
+
+@media screen and (max-width:1024px){
+	.background-image{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image2{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image3{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+}
+
+@media screen and (max-width:768px){
+	.background-image{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image2{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image3{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+}
+
+@media screen and (max-width:425px){
+	.background-image{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image2{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
+
+    .background-image3{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+}
 }
 
 .text{
@@ -162,6 +224,4 @@ footer{
 	width: 100%;
 	height: 50px;
 	background-color: #aaaaaa;
-	position: absolute;
-
 }
