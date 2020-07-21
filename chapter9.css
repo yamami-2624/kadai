@@ -25,27 +25,6 @@ main{
 }
 
 
-@media screen and (max-width:1024px){
-	main{
-		margin: 50px auto;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width:768px){
-	main{
-		margin: 50px auto;
-		width: 100%;
-	}
-}
-
-@media screen and (max-width:425px){
-	main{
-		margin: 50px auto;
-		width: 100%;
-	}
-}
-
 .main-contents{
 	background-color: #eee;
 	float: left;
@@ -55,60 +34,10 @@ main{
 	position: relative;
 }
 
-@media screen and (max-width:1024px){
-	.main-contents{
-	background-color: #eee;
-	float: none;
-	width: 90%;
-	padding: 10px;
-	position: relative;
-	margin:20px auto;
-}
-}
 
-@media screen and (max-width:768px){
-	.main-contents{
-	background-color: #eee;
-	float: none;
-	width: 90%;
-	margin-right: 30px;
-	padding: 10px;
-	position: relative;
-	margin:  auto;
-	margin-bottom:20px;
-}
-}
 
-@media screen and (max-width:425px){
-	.main-contents{
-	background-color: #eee;
-	float: none;
-	width: 90%;
-	margin-right: 30px;
-	padding: 10px;
-	position: relative;
-}
-}
 .main-contents:last-child{
 	margin-right: 0;
-}
-
-@media screen and (max-width:1024px){
-	.main-contents:last-child{
-		margin:auto;
-	}
-}
-
-@media screen and (max-width:768px){
-	.main-contents:last-child{
-		margin:auto;
-	}
-}
-
-@media screen and (max-width:425px){
-	.main-contents:last-child{
-		margin:auto;
-	}
 }
 
 .background-image{
@@ -132,74 +61,6 @@ main{
 	height:150px;
 }
 
-@media screen and (max-width:1024px){
-	.background-image{
-	background-image: url(img/flow01.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image2{
-	background-image: url(img/flow02.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image3{
-	background-image: url(img/flow03.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-}
-
-@media screen and (max-width:768px){
-	.background-image{
-	background-image: url(img/flow01.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image2{
-	background-image: url(img/flow02.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image3{
-	background-image: url(img/flow03.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-}
-
-@media screen and (max-width:425px){
-	.background-image{
-	background-image: url(img/flow01.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image2{
-	background-image: url(img/flow02.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-
-    .background-image3{
-	background-image: url(img/flow03.png);
-	background-size: cover;
-	background-position: bottom;
-	padding-top: 35%;
-}
-}
 
 .text{
 	padding: 3px;
@@ -225,3 +86,51 @@ footer{
 	height: 50px;
 	background-color: #aaaaaa;
 }
+
+
+
+
+@media screen and (max-width:768px){
+	main{
+		margin: 50px auto;
+		width: 100%;
+	}
+
+	.main-contents{
+	background-color: #eee;
+	float: none;
+	width: 90%;
+	padding: 10px;
+	margin:20px auto;
+    }
+
+
+	.main-contents:last-child{
+		margin:auto;
+	}
+
+	.background-image{
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+	height:150px;
+    }
+
+    .background-image2{
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+	height:150px;
+    }
+
+    .background-image3{
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 35%;
+	height:150px;
+    }
+}
+
