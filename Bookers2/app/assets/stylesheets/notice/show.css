@@ -1,0 +1,7 @@
+.notice{
+	color:green;
+}
+
+.flash[:notice]{
+	color:green;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<% if flash[:notice] %>
+    <div class="flash">
+      <%= flash[:notice] %>
+    </div>
+  <% end %>
+  <head>
+    <title>Bookers2</title>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
